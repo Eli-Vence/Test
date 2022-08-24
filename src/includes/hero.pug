@@ -1,0 +1,39 @@
+section.main 
+  .container 
+    .main__inner  
+      .hero 
+        h1.hero__title Now Buy Your PIN or <span> Top Up </span> 
+        .hero__title With Bank Transfer
+        .hero__text We Make international calling simple, relible, and cheap basedon your unique calling behavior.
+        a.hero__btn.btn(href="#") Get Started
+        .hero__search
+          form(action="" method="POST")
+            //- input.hero__search-input(type="text" placeholder="Where do you want to call?" pattern="[0-9]{5,10}")
+            input.hero__search-input(type="text" placeholder="Where do you want to call?" pattern="^[^!@#$%^&*()]{4,12}$")
+            button.hero__search-btn.btn(type='submit') 
+              img.hero__seach-img(src="./img/search.svg", alt="alt")
+        .users
+          .users__img 
+            img.users__img-item.prof1(src="./img/prof1.png", alt="prof1") 
+            img.users__img-item.prof2(src="./img/prof2.png", alt="prof2") 
+            img.users__img-item.prof3(src="./img/prof3.png", alt="prof3") 
+            img.users__img-item.plus(src="./img/plus.svg", alt="plus") 
+          p.users__prof 45k+ Regular User. 
+          a.users__link(href="#") View Price Plan
+      .picture
+        img.picture__bg(src="./img/Hero.png", alt="alt")
+        .picture__top-img
+        .picture__animation
+          .picture__animation-item
+            img.flag(src="./img/flag1.png", alt="flag")
+          .picture__animation-item
+            img.flag(src="./img/flag2.png", alt="flag")
+          .picture__animation-item 
+            img.flag(src="./img/flag3.png", alt="flag")
+          .picture__animation-item 
+            img.flag(src="./img/flag1.png", alt="flag")
+          .picture__animation-item 
+            img.flag(src="./img/flag3.png", alt="flag")
+          .picture__animation-item 
+            img.flag(src="./img/flag4.png", alt="flag")
+          

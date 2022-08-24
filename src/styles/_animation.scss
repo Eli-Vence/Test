@@ -1,0 +1,67 @@
+@keyframes flag1 {
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translateY(-190px);
+  }
+}
+
+@keyframes flag2 {
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translateY(-75px) translateX(180px);
+  }
+}
+@keyframes flag3 {
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translateY(70px) translateX(215px);
+  }
+}
+@keyframes flag4 {
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translateY(250px);
+  }
+}
+@keyframes flag5 {
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translateY(70px) translateX(-220px);
+  }
+}
+@keyframes flag6 {
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translateY(-75px) translateX(-210px);
+  }
+}
+
+@keyframes rotate {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateinv {
+  from{
+    transform: rotate(360deg);
+  }
+  to{
+    transform: rotate(0deg);
+  }
+}
